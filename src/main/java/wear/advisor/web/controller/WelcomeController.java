@@ -16,10 +16,6 @@ public class WelcomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String welcome(Model model) {
 
-		logger.debug("welcome() is executed, value {}");
-
-		
-		model.addAttribute("msg", "Hello Spring MVC + Logback");
 		return "welcome";
 
 	}

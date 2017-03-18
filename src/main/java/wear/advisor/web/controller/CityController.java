@@ -7,14 +7,15 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class CityController {
 
 	private static final Logger logger = LoggerFactory.getLogger(WelcomeController.class);
 	
-	@RequestMapping(value = "/{city}", method = RequestMethod.GET)
-	public String welcome(@PathVariable("city") String city,
+	@RequestMapping(value = "/conditions", method = RequestMethod.GET)
+	public String welcome(@RequestParam("city") String city,
 			Model model) {
 
 		logger.debug("welcome() is executed, value {}");
