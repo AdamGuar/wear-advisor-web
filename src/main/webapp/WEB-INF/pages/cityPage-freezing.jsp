@@ -122,40 +122,19 @@
                 <h2>Acording to weather conditions:</h2>
 				<p>
 					<!--Freezing <table> -->
-					<!-- <tr> -->
-						<!-- <td><img src="cold/Icy-50.png"></td> -->
-						<!-- <td>It is freezing outstide better take this:</td> -->
-					 <!-- </tr> -->
-					<!-- <tr> -->
-						<!-- <td><td> -->
-						<!-- <td>Warm coat</td> -->
-						<!-- <td><img src="cold/Coat-48.png"></td> -->
-					 <!-- </tr> -->
-					 <!-- <tr> -->
-						<!-- <td><td> -->
-						<!-- <td>Warm boots</td> -->
-						<!-- <td><img src="cold/WinterBoots-48.png"></td> -->
-					 <!-- </tr> -->
-					 <!-- <tr> -->
-						<!-- <td><td> -->
-						<!-- <td>A scarf</td> -->
-						<!-- <td><img src="cold/Scarf-48.png"></td> -->
-					 <!-- </tr> -->
-					 <!-- <tr> -->
-						<!-- <td><td> -->
-						<!-- <td>Pair of gloves</td> -->
-						<!-- <td><img src="cold/ChristmasMitten-48.png"></td> -->
-					 <!-- </tr> -->
-					<!-- </table> -->
 					<table>
 					<tr>
-						<td><img class="icon icons8-Winter" src="data:image/png;base64,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" width="48" height="48"></td>
-						<td>It is cold outstide better take this:</td>
+						<td><img class="icon icons8-Icy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADsElEQVRoQ+1YPWgUQRSel59Tk714aCQRBKMGRQwmAVvJgY2d0UAMoiSggqRJLK20tNtLZeUPdjbmFAmKRRQFuT0xQdOoxJ9OK7W73TNZmbud3HOcnZ/bW+PhpTPOzPu+9773vbcBUuc/UOf4SYPAelewUYF/tgLLfcRfb3A4/p4lcb+GSqhBoMbl+/8qYOeLaeKvZoGQzTiZMy89YW6nDiVCcx52h14Q3ePPH+xsHrs32nZHFEBqo3bOvQJALq8ngZ4OWJw/bQ2GZUdOYMFPQdH7piJwoBOuHtnV8hV8sEWBolRAln0aSznIbKfwBAgMMWA8mG1t5IczkUzR/7dzhU8AsJMnEUZg79am7NHdiRlequx8osknby90SDGqCXAy4sHs39J0fW6s/VyJgONlgPhTOgRSG6CwcNbaVCb+u1RZjO52+PJi3NouMzQ1gXwxDf7qfFgFBrusnrsj8LkEhDsbdof+nmb/0cn246V7nFQZgd4UPH18ykpHIxDyOH0UZ5EFyTjuHxNcJCFe23bOzQKQY/Qddr6/q/lidqQtE4kAr20MRuQQfM9gQAyISNtYRizGQPfGw7MnWp9HJ4AaGRPA+mdBRH0ga/y1e0h+7PzHyaRS4soDfHNiMKIS2443AcS/KbPeMG0z+dEY2N2iVwC5BCYgypDteANA/AUZgTBt2zl3EYD00xg7kmT52Zlkrwy81hzg3YURsFrJypvzyRZRAL6ReQmFadt23FtAyDg9j10qegUE+pSVmGVSZKOy4cTkRwnoOJB2BehBrE/6b5lHY0vkXUhKPLDsa69c5QRmydFqYhEBkQOtOYpkequWM+pi9995Q7IFDktKmwBuMPqArMS8E+Ee0JmuqsatjkAwCxgYvELwAfmVQmW9JoD5s/oVCBY1CkZnS8ROhAnoTFcTQvoEAl3rDhnbcb+zrznV7DABXH0Fcu4wAJmlYFSNWJ7ele8IRkB3upoQ0q9AMGEpGJkDVXai8lDCNqqz35uAN5oDzEopAR0di7bLWjuQMQFqpTdee31hKwTOHnYiJiH67fxg1LpkmuXIq8SaLPKF6bn3P4dVX0nlHqgsdSYfKKbktHvA9GHR9NbZ703jxEoAT2/Z9moKuqpJXE0QttRRCcXhQMZNbEqCORElEIcDxU8g+I6gBOJwoPgJBPs9JSBb/kwr+9d6oGSnOXfx9lJxH/srXBSworuxulCJQL4w/fDDyhD7K1zdEag1YP692CvQIKDIQKMCcUtE9X7dV+AXjnJET6Y3rbwAAAAASUVORK5CYII=" width="48" height="48"></td>
+						<td>It is FREEZING outside better take this:</td>
 					 </tr>
 					<tr>
 						<td><td>
+						<td>Warm hat</td>
+						<td><img class="icon icons8-Beanie" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACpUlEQVRoQ+2Yv2/TQBTHv48UkDq0RUwMbZIFiQmbHTXdGBoJpHRoF5KxXYC/APgLgIWMCQsZylDJHbrVETvOhtQlDh2YkNwOlYCWhxyLlojYd7ZfElzlNst3z9/P+3XnI2R8UMb1Ywow6QhOIzA0AvVWCcBzMBv990QdAC+xuW5LR0w+AvXWi7744cOH8N+LDVmAwPP7CnUrkpGQBXj73gbRciQAcxtbGz6oyJAFqLc8APMKAA9bGzdE1PvlJWWob0cHADjC5vqC1HdlAS5BCmW8iIM0ym4bfeB8LczQ98a34+PSweEhjk5O+qk+PzuL24uLuDk3Z5/y9dqeecv972qg7Hypgn69AkhRoOyBrzyzzKWmBIRIEZedXhOExzEFNS0jX4u55p/pqQAeOt2FU6J9AgVnnpiDwZ0Z5pUds+jvH4lGYoC04v+oTQuRCEBKvAREIoBVx+0Q0d1EMQ9Z5Edi1yiYcW3GBkhYsLq6Yhd2LICgVXJDV02ieUyPLHNpR3etNoCf92dEXXWf1/102Dz2csxF3c6kDTDi1BmkYbyzzHxVxxVaAP4R4Sr96OoYlJrzk68VdY4cWgBj9f5Fb9WKgiaA64Eo+k9LyvXndtizjILyz00JMJbOE1rP6o6kBFh1eq+J8ETcwRoGmfFm18w/jZqqBCg7rvqmQUNMoinMbcssRN5g6ABMIP/PK1lZB2qATo8TeU9okWXkIzVeYoDtjyXQWQOgQt+Znz8N+vTOvcHnkb1nF5yrYe3+0Ivh8Ah8sP1zTyB+ogD+x9lFpVQclpURAO3B3B+ZhzUdVFkeqnUKMLYUm0YgczWwbQ/uwBMF4B4qpYuO+Fc7Ci/iYB9oApSfbBvlHjhXjb8PCB0FRm1GeZQYtYC09qcAaT2Ydn3mI/AbYZI5QHr0myAAAAAASUVORK5CYII=" width="48" height="48"></td>
+					<tr>
+						<td><td>
 						<td>Warm coat</td>
-						<td><img class="icon icons8-Coat" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAFNUlEQVRoQ+2YX0xbVRzHf4d2UigZzKAsBraWP1vCZKNIRGVmtw/LiK2OLcFkagJkb6aE8WRiYuwSffBpLG18UyBRl0iyP641hJhwF4eKm8CYm9mg0AVmQInSpeXP1u6Yc8ut917Oube3tHGYnvB0zrm/8/2c35/zKwi2+EBbXD9kAZQefPc1rtaAoBUDcAihWrKOMR5HAHwMQ9+n3/Lj6fR6Wj3Q84m7efyH4b7Hseh2msgcg/FB7SuNre3vuS+mCyJtAD1n3EVoDc9M3fr1Xujvvw7QBBbuePpG5b7nd+NcZG3vci+lAyJtAJ9/9P6gwbjtcHBmeuTG2ERDeGUNVh8+EjSantoGBXm5cMC2f8RiLW+IPooOnvzg4yNPBEBn06v7TUVFl6tr63YRQaPXR2Hs5m2qNltNNdTV1wlrE9d+DkYj4aNnB76f2AxIyh441cRZogZ8FgC9sauiAkqeKxV0zM7OweB3PFXTkcMclJau75sOwPz9OZLi3xhjqLN7gA+mAqIbgAiPGeBDAGiLF2EENfUvQq7JlDj/s54vqFpOtr+TmI+Ew/Db+CgBEP4AoNcQg9N6QXQBuJxcNwLUKVWXZzbDPtsLMsFfneuHldU12VyeKRfeOtEim5u4NgIP1+T7AONuj5/vStYbSQO4HFwvQqhVabisvDwRPuKa3zcA838uyrbufKYYHM4m2dzsdAAWfr+/USvGvR4/354MRFIArte5ZoTRBZpBZfiQPVf4KzA1MyvbXmktg0PcIdncv2FEYUD4mPcyr/leJAfgsAcRgt1qN2IwGqDMWgHFJTshMDkF/NWfZNu5gy9BRVUlLC7Mw+xMAGLRmPoFYxz0+Hmrlhc0AdRuXzRO8sBStRfMBQXC1HJkGc59fV529ok3j0O+OV+YIzcfnLwDK5GIqj6chBe0ARixL55c/GwJlJZXgNFolInp6f0SHuN4eclBCNrb3patR6NRmJsOwOIfC0wIjHGf18+3qVEmAWBfQggKWUYsVXuEsFGO/v4L8CAcv+HtBWZoaTm2YQ8Jp+DkXRV9eMnj43ekDOBychwCNKQ0gDGEpFDVtjrIN8fDRxzSRKYl8HIkDLfHyDsQH0qbiXnAdq+Pp7+MwiukMjoc3ClA6MyGLRhfAoSOivMkgWvqG2RhJG0ppC0E+YaEz83rI/JEVtiUkHV5/Hw3S6YWwEWpUKlRJZjyQZO2FNIWgti4NfbLxgTGuIt1WR4/35wSgItRPjFgOy20SEJb9uxNnCW2FNIWInj3DjVxWTbJjyGvn7elBNDhtMfLiGJ4fEOItSZNatJSkCG2EGpJq2aTrOkGEH4a5qAx5YcYwz2vf8jCAiD7xaQmLQUZpIVQJi3tUlwOesUzRLGV1eQxyVgViHQKHt8QpwYgJvXw1WFBZ+PBxo1JS/cqqTbyfkPoV9mViAnAqkDi46IGQLSRpDYVxJ+P1XBI89UVQsjBMYsGqxKpecCNAJG+XzYw4NNeH+/WAiAfmQvjAJFQiBXCiXkC4HJyqmfSjGQUQFO1ZEPaATqcdno8rjdYNA+c/zGe88dfplc9tXUBgNW2Y3yJ9Rawc4AFsJ5QGQFgtC5i4dAVQkwPqADoCRlqGc0CSK6F1UaIj0oyVUiPR0gOsB9PdjuhlgPMNoIIywSAml1WO5FWgM1WoSyANGbVOtH/bQjpSVpaGf3PQ+iJAtASk6kqpHWucl3z3yosg5loJfSKJ/uzAKncGu0btd+9amek1QObgckC6L29LV+F9AJnan/KOZApQXrtbnmAfwBLMNZPl2/zDgAAAABJRU5ErkJggg==" width="48" height="48"></td>
+						<td><img class="icon icons8-Coat" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAFNUlEQVRoQ+2YX0xbVRzHf4d2UigZzKAsBraWP1vCZKNIRGVmtw/LiK2OLcFkagJkb6aE8WRiYuwSffBpLG18UyBRl0iyP641hJhwF4eKm8CYm9mg0AVmQInSpeXP1u6Yc8ut917Oube3tHGYnvB0zrm/8/2c35/zKwi2+EBbXD9kAZQefPc1rtaAoBUDcAihWrKOMR5HAHwMQ9+n3/Lj6fR6Wj3Q84m7efyH4b7Hseh2msgcg/FB7SuNre3vuS+mCyJtAD1n3EVoDc9M3fr1Xujvvw7QBBbuePpG5b7nd+NcZG3vci+lAyJtAJ9/9P6gwbjtcHBmeuTG2ERDeGUNVh8+EjSantoGBXm5cMC2f8RiLW+IPooOnvzg4yNPBEBn06v7TUVFl6tr63YRQaPXR2Hs5m2qNltNNdTV1wlrE9d+DkYj4aNnB76f2AxIyh441cRZogZ8FgC9sauiAkqeKxV0zM7OweB3PFXTkcMclJau75sOwPz9OZLi3xhjqLN7gA+mAqIbgAiPGeBDAGiLF2EENfUvQq7JlDj/s54vqFpOtr+TmI+Ew/Db+CgBEP4AoNcQg9N6QXQBuJxcNwLUKVWXZzbDPtsLMsFfneuHldU12VyeKRfeOtEim5u4NgIP1+T7AONuj5/vStYbSQO4HFwvQqhVabisvDwRPuKa3zcA838uyrbufKYYHM4m2dzsdAAWfr+/USvGvR4/354MRFIArte5ZoTRBZpBZfiQPVf4KzA1MyvbXmktg0PcIdncv2FEYUD4mPcyr/leJAfgsAcRgt1qN2IwGqDMWgHFJTshMDkF/NWfZNu5gy9BRVUlLC7Mw+xMAGLRmPoFYxz0+Hmrlhc0AdRuXzRO8sBStRfMBQXC1HJkGc59fV529ok3j0O+OV+YIzcfnLwDK5GIqj6chBe0ARixL55c/GwJlJZXgNFolInp6f0SHuN4eclBCNrb3patR6NRmJsOwOIfC0wIjHGf18+3qVEmAWBfQggKWUYsVXuEsFGO/v4L8CAcv+HtBWZoaTm2YQ8Jp+DkXRV9eMnj43ekDOBychwCNKQ0gDGEpFDVtjrIN8fDRxzSRKYl8HIkDLfHyDsQH0qbiXnAdq+Pp7+MwiukMjoc3ClA6MyGLRhfAoSOivMkgWvqG2RhJG0ppC0E+YaEz83rI/JEVtiUkHV5/Hw3S6YWwEWpUKlRJZjyQZO2FNIWgti4NfbLxgTGuIt1WR4/35wSgItRPjFgOy20SEJb9uxNnCW2FNIWInj3DjVxWTbJjyGvn7elBNDhtMfLiGJ4fEOItSZNatJSkCG2EGpJq2aTrOkGEH4a5qAx5YcYwz2vf8jCAiD7xaQmLQUZpIVQJi3tUlwOesUzRLGV1eQxyVgViHQKHt8QpwYgJvXw1WFBZ+PBxo1JS/cqqTbyfkPoV9mViAnAqkDi46IGQLSRpDYVxJ+P1XBI89UVQsjBMYsGqxKpecCNAJG+XzYw4NNeH+/WAiAfmQvjAJFQiBXCiXkC4HJyqmfSjGQUQFO1ZEPaATqcdno8rjdYNA+c/zGe88dfplc9tXUBgNW2Y3yJ9Rawc4AFsJ5QGQFgtC5i4dAVQkwPqADoCRlqGc0CSK6F1UaIj0oyVUiPR0gOsB9PdjuhlgPMNoIIywSAml1WO5FWgM1WoSyANGbVOtH/bQjpSVpaGf3PQ+iJAtASk6kqpHWucl3z3yosg5loJfSKJ/uzAKncGu0btd+9amek1QObgckC6L29LV+F9AJnan/KOZApQXrtbnmAfwBLMNZPl2/zDgAAAABJRU5ErkJggg==" width="48" height="48">></td>
 					 </tr>
 					 <tr>
 						<td><td>
@@ -173,61 +152,7 @@
 						<td><img class="icon icons8-Mittens" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEKklEQVRoQ+2ZzU8TQRTA32urRgkfkZOJtCXGg6K0690UxINRqpDgzQT8C9AbN+DoCfgLxJsJRCuthgPEEhMPmrgYD4gX2mLiCcEDGGmXZ2ZhYdvO7E67UwgJe2jS7puZ93vzvmaKcMwfPOb6Q80B7uo/o36f0U9EUQQIA2CYGY2A0giYAR8m/IaxkNBaN6oxZs0AmOI+LIwhYIe7YrRBiCOpSGjCXbZYoiYA9/TsEx/CWKXKENBigc70zmoXMrJjlQPE9ewkIPTLKlAuRxsGBTrfaRcXZeZQClCt5XkQfqJWmbhQBnBH/xU+hdsrMlaTkWFBnoqGO91klQHE9WwCEB64LVjJeyJfZ0prSTuNUQKg2vqWwiyoU9GwVnMAdb5frmqeTrc6ZSUlOxDXM2lAjPEsNRhshoncmqPndJ2vg/nfm1yZHYKnb7XQuGgCJQDdemYRESO8RWYiQVO5iVU+BFN+sKUZ7n/NcXUkgtGUFhqpKUB8MUuiBRgAe3gQlvLsvQgACN4ktVDPkQOUQtiVdwaghaQWFrYjSlzIaQdEilo7Y4Ktb4rjhA4RoFRZy214rrLvWnvKl43d+90tlSrfATcIy9fN4HZR3vL7ZDQk1FMKoFtf7QA0hndbY8oAYsK/szNq9SqlLuQEYaVLK72KLG8PWk8AcT3XA0ivS7MA29oAUSeD4MUAD2Lo8zf4sfwd8vk8tF27Do+uXjZTqPWIYsEjQGYDEBt5acyCMNC3LtPjzM3Pwt+tLVO0oaEJYrFbMsOgagDmOog7751WYRAIEAWJ02kxQCPEYl1HD8A0YFUM9z4tjXi+PfSJudAS5At5aGtrL3chQcWuegeYMnFd7EJ289khRIFp73mEQcyB8ARQSafJIG7v9TalgVna89h7JFHWMucg+pPUwk2eWgnZc66T5a1sY68D9vZCCKGqEjt1nOUp9iAmpFoJh24VVAH06CtNBcC0qG0WQcxEQtw8L9/MKexGzVs2KLDDC7cu8CCSVjvNadhk2mnl5wETAg1dKoEDgL3n4Y1xO9AA4eOkFpz0FMSlg+N6bgCQnstAsHQ5nlsrqxP2sU5HSoP8mtMll1Qzx1O0W8+OIMKwDISo2LmOdUmhbHzVALtFrrJrRF7FdoQgeJHUQgNOMp4A2MSVpNeKd4KwN6kFEzUFqDS9ykIQUTalhc3/EmoKwCZnN3N++jfn8+EltwWt927uJHOt6DkG7Mqee/Wxu4CFl9sG1Zm/L30pZrlyo/i74P3ZQACC9fXPlrvah2SM4TkG9heZTmcA8KDsVgmwOx9loK+j9ZABFoovtzwBAEBfTMq4UkIyloDpE4BiO53sgJTf2ISOvQtNpYuvXzwFMWWhr8O1iCmtAzD1gd3eTe6n0qoBKAvkH4CHNx3/G7P2Xl0WqtTlFMmfACgyZNXT/Aeb13JPND6isAAAAABJRU5ErkJggg==" width="48" height="48"></td>
 					 </tr>
 					</table>
-					
-					<!-- Moderate -->
-					<!-- <table> -->
-					<!-- <tr> -->
-						<!-- <td><img src="moderate/Temperature-48.png"></td> -->
-						<!-- <td>Temperature is moderate better take this:</td> -->
-					 <!-- </tr> -->
-					<!-- <tr> -->
-						<!-- <td><td> -->
-						<!-- <td>Shirt</td> -->
-						<!-- <td><img src="moderate/Shirt-48.png"></td> -->
-					 <!-- </tr> -->
-					 <!-- <tr> -->
-						<!-- <td><td> -->
-						<!-- <td>Sneakers</td> -->
-						<!-- <td><img src="moderate/Trainers-48.png"></td> -->
-					 <!-- </tr> -->
-					 <!-- <tr> -->
-						<!-- <td><td> -->
-						<!-- <td>Plain pair of trousers</td> -->
-						<!-- <td><img src="moderate/Trousers-48.png"></td> -->
-					 <!-- </tr> -->
-					<!-- </table> -->
-					
-					<!-- WARM -->
-					<!-- <table> -->
-					<!-- <tr> -->
-						<!-- <td><img src="warm/PalmTree-48.png"></td> -->
-						<!-- <td>It is warm outstide better take this:</td> -->
-					 <!-- </tr> -->
-					<!-- <tr> -->
-						<!-- <td><td> -->
-						<!-- <td>T-shirt</td> -->
-						<!-- <td><img src="warm/T-Shirt-48.png"></td> -->
-					 <!-- </tr> -->
-					 <!-- <tr> -->
-						<!-- <td><td> -->
-						<!-- <td>Shorts</td> -->
-						<!-- <td><img src="warm/Shorts-48.png"></td> -->
-					 <!-- </tr> -->
-					 <!-- <tr> -->
-						<!-- <td><td> -->
-						<!-- <td>Shades</td> -->
-						<!-- <td><img src="warm/SunGlassesFilled-50.png"></td> -->
-					 <!-- </tr> -->
-					 <!-- <tr> -->
-						<!-- <td><td> -->
-						<!-- <td>Sunscreen</td> -->
-						<!-- <td><img src="warm/CreamTube-48.png"></td> -->
-					 <!-- </tr> -->
-					<!-- </table> -->
-					
-					
-					
-					
+						
 				</p>
 				<p><a href="#contact" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
