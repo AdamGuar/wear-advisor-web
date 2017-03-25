@@ -57,32 +57,86 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Wear Advisor</h1>
-                        <form action="conditions" method="get">
-                        <p class="intro-text">Type your city below and let us help you in choosing your clothing
-                            <div class="form-group">
-							  <label for="city" class="intro-text">City</label>
-							  <input type="text" class="form-control input-lg" id="city" name="city">
-							</div>
-							
-						</p>
-						<button class="btn btn-circle page-scroll" type="submit" value="Submit">
-								<i class="fa fa-angle-double-right animated"></i>
-						</button>	
-						</form>	
-						
-                    </div>
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href=".">
+                    <i class="fa fa-backward" aria-hidden="true"></i> <span class="light">To region selection</span>
+                </a>
             </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="navbar-brand page-scroll" href="#page-top">
+		                    <span class="light">Conditions</span>
+		                </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">What to wear</a>
+                    </li>
+                    <!-- <li> -->
+                        <!-- <a class="page-scroll" href="#download">Download</a> -->
+                    <!-- </li> -->
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </header>
-    
+        <!-- /.container -->
+    </nav>
+
+	<%@include file="dynamic.jsp" %>
+
+    <!-- Download Section -->
+    <!-- <section id="download" class="content-section text-center"> -->
+        <!-- <div class="download-section"> -->
+            <!-- <div class="container"> -->
+                <!-- <div class="col-lg-8 col-lg-offset-2"> -->
+                    <!-- <h2>Download Grayscale</h2> -->
+                    <!-- <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p> -->
+                    <!-- <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a> -->
+                <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+    <!-- </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+		<div class="download-section">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h2>Contact the author</h2>
+					<p>Feel free to leave any feedback regarding this page or anything :)</p>
+					<p><a href="mailto:weather-advisor@gmail.com">adamguardev@gmail.com</a>
+					</p>
+					<ul class="list-inline banner-social-buttons">
+						<li>
+							<a href="https://github.com/AdamGuar" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+						</li>
+					</ul>
+					<p><a href="#page-top" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-up animated"></i>
+                        </a>
+				</p>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
     <!-- Footer -->
     <footer>
         <div class="container text-center">

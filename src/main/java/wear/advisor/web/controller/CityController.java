@@ -30,9 +30,7 @@ public class CityController {
 		model.addAttribute("cond",conditions);
 		model.addAttribute("city", city);
 		
-		String viewToReturn = "cityPage-"+conditions.getType().toString();
-		
-		return viewToReturn;
+		return "cityPage";
 
 	}
 	
