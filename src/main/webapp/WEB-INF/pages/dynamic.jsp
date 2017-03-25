@@ -7,7 +7,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Conditions in ${city}</h1>
+                        <h1 id="city-header" class="brand-heading">${city}</h1>
 						<p class="intro-text">Temperature:
                             <br>${cond.temperature} °C</p>
 						<p class="intro-text">Wind:
