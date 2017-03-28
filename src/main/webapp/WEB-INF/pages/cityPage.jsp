@@ -66,7 +66,7 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href=".">
-                    <i class="fa fa-backward" aria-hidden="true"></i> <span class="light">To region selection</span>
+                    <i class="fa fa-backward" aria-hidden="true"></i> <span class="light">Region selection</span>
                 </a>
             </div>
 
